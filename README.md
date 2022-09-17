@@ -24,7 +24,7 @@ Despite the great success of deep learning in stereo matching, recovering accura
 
 Download the three datasets, and change the `datapath` args in `./scripts/scene.sh` or `./scripts.kitti.sh`.
 
-## Train
+## Training
 
 We use the distributed data parallel (DDP) to train the model.
 
