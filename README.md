@@ -20,7 +20,7 @@ Despite the great success of deep learning in stereo matching, recovering accura
 
 - [KITTI 2015](https://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo)
 
-- [KITTI 2012]([The KITTI Vision Benchmark Suite](https://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo))
+- [KITTI 2012](https://www.cvlibs.net/datasets/kitti/eval_stereo_flow.php?benchmark=stereo)
 
 Download the three datasets, and change the `datapath` args in `./scripts/scene.sh` or `./scripts.kitti.sh`.
 
@@ -42,5 +42,3 @@ Training logs are saved in ```./log/```.
 please change the ```train_DDP.py``` in shell scripts to `evaluation.py` and uncomment the `loadmodel` args.
 
 EPE, 1px, 3px, D1 metrics are reported.
-
-# 
