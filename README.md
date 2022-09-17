@@ -39,6 +39,6 @@ Training logs are saved in ```./log/```.
 
 ## Evaluation
 
-please change the ```train_DDP.py``` in shell scripts to `evaluation.py` and uncomment the `loadmodel` args.
+please change the ```train_DDP.py``` in shell scripts to `val.py` and uncomment the `loadmodel` args.
 
 EPE, 1px, 3px, D1 metrics are reported.
